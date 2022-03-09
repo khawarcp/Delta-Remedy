@@ -415,7 +415,52 @@
       },
       "about-why-choose": {
         "type": "about-why-choose",
+        "blocks": {
+          "fa8e2755-045e-42c7-92f5-0c6170cb171d": {
+            "type": "Features",
+            "settings": {
+              "heading": "LAB TESTED  <span>FOR ACCURACY<\/span>",
+              "image": "shopify:\/\/shop_images\/chose-img1.png"
+            }
+          },
+          "48dd4049-f5c3-4ca2-a3b8-3f87b403cf84": {
+            "type": "Features",
+            "settings": {
+              "heading": "",
+              "image": "shopify:\/\/shop_images\/chose-img2.png"
+            }
+          },
+          "0e6966d4-64de-4c92-99df-5622fde8317d": {
+            "type": "Features",
+            "settings": {
+              "heading": "",
+              "image": "shopify:\/\/shop_images\/chose-img3.png"
+            }
+          },
+          "4a3d67c3-5c63-427d-b803-52254c2bd4ea": {
+            "type": "Features",
+            "settings": {
+              "heading": "",
+              "image": "shopify:\/\/shop_images\/chose-img4.png"
+            }
+          },
+          "9107382c-66d0-474b-a6e9-7734718d30b0": {
+            "type": "Features",
+            "settings": {
+              "heading": "",
+              "image": "shopify:\/\/shop_images\/chose-img5.png"
+            }
+          }
+        },
+        "block_order": [
+          "fa8e2755-045e-42c7-92f5-0c6170cb171d",
+          "48dd4049-f5c3-4ca2-a3b8-3f87b403cf84",
+          "0e6966d4-64de-4c92-99df-5622fde8317d",
+          "4a3d67c3-5c63-427d-b803-52254c2bd4ea",
+          "9107382c-66d0-474b-a6e9-7734718d30b0"
+        ],
         "settings": {
+          "title": "Why Choose Delta 8 Thc"
         }
       }
     },
