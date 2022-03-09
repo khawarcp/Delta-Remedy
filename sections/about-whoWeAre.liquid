@@ -7,14 +7,15 @@
         {% for block in section.blocks %}
             <div class="product-detail-accordion-flex">
                 <div class="product-accordion-img-col">
-                <img src="https://cdn.shopify.com/s/files/1/0631/1280/6647/files/delta-who.png?v=1646740252">
-                {{ section.settings.image | image_url : width : "original" | image_tag }}
+                {{ section.settings.image | image_url : width : 545 | image_tag }}
                 </div>
                 <div class="product-accordion-text-col">
                 <h3>  {{ block.settings.heading }} </h3>
                     {{ block.settings.info }}
                 <div class="product-accordion-detail">
-                    <a href="{{ block.settings.link }}" class="btn"><span>{{ block.settings.button_link }}</span></a>
+                    {% if block.settings.button_text != blank and block.settings.link != blank %}
+                    <a href="{{ block.settings.link }}" class="btn"><span>{{ block.settings.button_text }}</span></a>
+                    {% endif %}
                 </div>
                 </div>
             </div>
@@ -48,7 +49,8 @@
                 {
                     "type": "text",
                     "id": "button_text",
-                    "label": "Button Text"
+                    "label": "Button Text",
+                    "default" : "Read More"
                 },
                {
                    "type": "url",
