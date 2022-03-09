@@ -1012,4 +1012,7 @@ button.btn--link.site-header__icon.site-header__search-toggle.js-drawer-open-top
     padding-bottom: 0px;
 }
   .collection-template-style ul li {margin-bottom: 40px;}
+  .lab-report-col {
+    width: 100%;
+}
 }
