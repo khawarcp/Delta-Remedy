@@ -801,16 +801,16 @@ a.site-nav__link.site-nav__link--main.site-nav__link--active {
 }
 
 .lab-report-flex {
-    max-width: 900px;
-    margin: 0px auto;
-    justify-content: space-between;
-    display:flex;
-    flex-wrap:wrap;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0px -30px;
 }
 
 .lab-report-col {
     width: 50%;
-    
+    padding: 0px 30px;
+    margin-bottom: 60px;
 }
 .lab-report-text{
   background-color: #2B2B2E;
@@ -818,6 +818,9 @@ a.site-nav__link.site-nav__link--main.site-nav__link--active {
   border: 1px solid #454545;
   box-shadow: 2px 7px 48px 2px rgb(0 0 0 / 55%);
   border-radius: 14px;
+}
+section.lab-report-sec .page-width {
+    max-width: 950px;
 }
 span.lab-star {
     display: block;
