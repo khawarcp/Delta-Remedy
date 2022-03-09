@@ -958,3 +958,50 @@ ul.social-sharing li a:hover {
 }
 
 }
+@media screen and (max-width:767px){
+  .slideshow__image.box.ratio-container {
+    background-size: 95%;
+    background-position: center !important;
+    /* height: 300px; */
+}
+
+.slideshow__text-content.slideshow__text-content--mobile.slideshow__text-content--mobile-1  .page-width {
+    padding: 0px;
+}
+
+marquee.html-marquee p {
+    font-size: 50px;
+}
+
+ul.grid.grid--uniform.grid--view-items.cus-grid--view-items li {
+    width: 100%;
+    margin-bottom: 40px;
+}
+
+.being-better-row {
+    flex-direction: column;
+}
+
+.story-teller-img {
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+.story-teller-text {
+    width: 100%;
+    padding: 0;
+}
+
+.site-footer__item-inner--newsletter .newsletter__submit {
+    width: 100%;
+}
+
+footer.site-footer .social-icons__item {
+    padding: 0px;
+    margin-right: 10px;
+}
+
+footer.site-footer .social-icons__item:last-child {
+    margin-right: 0px;
+}
+}
