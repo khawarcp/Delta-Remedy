@@ -3,6 +3,7 @@
       <h2> {{ page.title }} </h2>
       <div class="lab-report-flex">
         {% for block in section.blocks %}
+            {% if block.settings.heading != blank %}
             <div class="lab-report-col">
                 <div class="lab-report-text">
                     <span class="lab-star"><img src="https://cdn.shopify.com/s/files/1/0631/1280/6647/files/lab-star.svg?v=1646811076"></span>
@@ -14,6 +15,7 @@
                     </div>
                 </div>
             </div>
+            {% endif %}
         {% endfor %}
       </div>
     </div>
