@@ -949,5 +949,11 @@ ul.social-sharing li a:hover {
     color: #fff;
     background-color: transparent !important;
 }
+.cart-header a {
+    color: #fff;
+}
 
+p.cart__remove a {
+    color: #fff;
+}
 }
