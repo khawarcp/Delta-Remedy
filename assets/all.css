@@ -804,6 +804,7 @@ a.site-nav__link.site-nav__link--main.site-nav__link--active {
     max-width: 900px;
     margin: 0px auto;
     justify-content: space-between;
+    display:flex;
 }
 
 .lab-report-col {
