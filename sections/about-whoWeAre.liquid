@@ -1,0 +1,74 @@
+<div class="page-width">
+<div class="about-title">
+    <h2> {{ page.title }} </h2>
+    </div>
+    <section class="product-detail-accordion product-detail-loop about-page-content">
+    <div class="product-detail-accordion-flex">
+        <div class="product-accordion-img-col">
+        <img src="https://cdn.shopify.com/s/files/1/0631/1280/6647/files/delta-who.png?v=1646740252">
+        </div>
+        <div class="product-accordion-text-col">
+        <h3>Who we are</h3>
+        <p>Delta 8 is a very rare cannabinoid. In fact, it only exists in the cannabis plant (which includes both marijuana and hemp) in small concentrations of 1% or less. This may explain why cultivators and hemp brands feel like they’ve won the lottery when they get their hands on some Delta.
+It seems this relatively new cannabinoid is now facing the same hurdles and obstacles that CBD once faced when it first came onto the scene. Wait, who are we kidding? The CBD market is still facing some bumps in the road, but now at least they’re minor compared to what they used to be. </p> 
+        <div class="product-accordion-detail">
+            <a href="#" class="btn"><span>Read More</span></a>
+        </div>
+        </div>
+        
+        
+    </div>
+    <div class="product-detail-accordion-flex">
+        
+        <div class="product-accordion-img-col">
+        <img src="https://cdn.shopify.com/s/files/1/0631/1280/6647/files/delta-thc2.png?v=1646737288">
+        </div>
+        <div class="product-accordion-text-col">
+        <h3>Our Mission</h3>
+        <p>One of the studies involved young children. That’s right, scientists actually gave children Delta 8 THC to see if it would help relieve their severe nausea and vomiting from intense chemotherapy treatments. And guess what? It did! Which means this cannabinoid is far more subtle than its more intense cousin, Delta 9
+
+This may explain why so many CBD advocates are welcoming high quality Delta 8 THC with open arms</p> 
+        </div>
+    </div>
+</section>
+</div>
+
+{% schema %}
+{
+    "name" : "Who We Are",
+    "settings":
+    [
+    ],
+    "blocks":
+    [
+        {
+            "type" : "whoWeAre",
+            "name" : "Who We Are",
+            "settings":
+            [
+               {
+                   "type": "text",
+                   "id": "heading",
+                   "label": "Heading"
+               },
+              {
+                  "type": "richtext",
+                  "id": "info",
+                  "label": "Description"
+              },
+                {
+                    "type": "text",
+                    "id": "button_text",
+                    "label": "Button Text"
+                },
+               {
+                   "type": "url",
+                   "id": "link",
+                   "label": "Link"
+               }
+             
+            ]
+        }
+    ]
+}
+{% endschema %}
