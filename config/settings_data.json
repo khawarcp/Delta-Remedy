@@ -462,6 +462,87 @@
         "settings": {
           "title": "Why Choose Delta 8 Thc"
         }
+      },
+      "lap-reports": {
+        "type": "lap-reports",
+        "blocks": {
+          "01c7865f-887f-4d9a-bc75-d17e4486fb10": {
+            "type": "reports",
+            "settings": {
+              "heading": "30ML Full Spectrum Tincture Lab Reports",
+              "batch": "Batch ID 9052099",
+              "file_url": ""
+            }
+          },
+          "c2cb59c0-9013-4ffb-902a-e362a1d0b55c": {
+            "type": "reports",
+            "settings": {
+              "heading": "30ML Full Spectrum Tincture Lab Reports",
+              "batch": "Batch ID 9052099",
+              "file_url": ""
+            }
+          },
+          "2524a330-f721-4670-acad-1c0512f55694": {
+            "type": "reports",
+            "settings": {
+              "heading": "30ML Full Spectrum Tincture Lab Reports",
+              "batch": "Batch ID 9052099",
+              "file_url": ""
+            }
+          },
+          "6fe76c6d-25f1-4302-b35a-e16a0865d62d": {
+            "type": "reports",
+            "settings": {
+              "heading": "30ML Full Spectrum Tincture Lab Reports",
+              "batch": "Batch ID 9052099",
+              "file_url": ""
+            }
+          },
+          "53d9db72-6625-4627-acbd-26c8e54b8754": {
+            "type": "reports",
+            "settings": {
+              "heading": "30ML Full Spectrum Tincture Lab Reports",
+              "batch": "Batch ID 9052099",
+              "file_url": ""
+            }
+          },
+          "78d6c7d6-b64b-4dc4-92cd-7d0df7dbb46e": {
+            "type": "reports",
+            "settings": {
+              "heading": "30ML Full Spectrum Tincture Lab Reports",
+              "batch": "Batch ID 9052099",
+              "file_url": ""
+            }
+          },
+          "b236a12a-c342-4c77-84f1-fe77d5fd37d3": {
+            "type": "reports",
+            "settings": {
+              "heading": "30ML Full Spectrum Tincture Lab Reports",
+              "batch": "Batch ID 9052099",
+              "file_url": ""
+            }
+          },
+          "d9d2cd18-ed31-43dc-ba3b-df5a2d989945": {
+            "type": "reports",
+            "settings": {
+              "heading": "30ML Full Spectrum Tincture Lab Reports",
+              "batch": "Batch ID 9052099",
+              "file_url": ""
+            }
+          }
+        },
+        "block_order": [
+          "01c7865f-887f-4d9a-bc75-d17e4486fb10",
+          "c2cb59c0-9013-4ffb-902a-e362a1d0b55c",
+          "2524a330-f721-4670-acad-1c0512f55694",
+          "6fe76c6d-25f1-4302-b35a-e16a0865d62d",
+          "53d9db72-6625-4627-acbd-26c8e54b8754",
+          "78d6c7d6-b64b-4dc4-92cd-7d0df7dbb46e",
+          "b236a12a-c342-4c77-84f1-fe77d5fd37d3",
+          "d9d2cd18-ed31-43dc-ba3b-df5a2d989945"
+        ],
+        "settings": {
+        }
       }
     },
     "content_for_index": [
