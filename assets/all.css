@@ -805,6 +805,7 @@ a.site-nav__link.site-nav__link--main.site-nav__link--active {
     margin: 0px auto;
     justify-content: space-between;
     display:flex;
+    flex-wrap:wrap;
 }
 
 .lab-report-col {
@@ -843,6 +844,7 @@ span.pdf-img {
     border-top: 1px solid #8B8B8B;
     align-items: center;
     padding-top: 20px;
+    
 }
 
 .batch-flex h6 {
