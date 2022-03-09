@@ -666,8 +666,9 @@
       "product-image-accordion": {
         "type": "product-image-accordion",
         "settings": {
+          "image": "shopify:\/\/shop_images\/delta-thc.png",
           "button_text": "Read More",
-          "link": ""
+          "link": "#"
         }
       }
     },
