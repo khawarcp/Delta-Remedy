@@ -880,3 +880,30 @@ span.pdf-img {
 .faqs-content .accordion_head h4 {
     font-size: 22px;
 }
+p.trustpilot-text {
+    text-align: center;
+}
+
+.trusted-customer-flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.trusted-customer-col {
+    text-align: center;
+}
+
+.trusted-customer-col h6 {
+    color: #FFFFFF;
+    font-family: 'objective_medium';
+    line-height: 1.6;
+}
+
+.trusted-customer-col span {
+    display: block;
+    font-family: 'objective_medium';
+}
+
+.trusted-customer-col img {
+    margin-bottom: 10px;
+}
