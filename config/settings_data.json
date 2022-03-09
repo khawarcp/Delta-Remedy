@@ -338,7 +338,7 @@
         "type": "product-template",
         "settings": {
           "show_quantity_selector": true,
-          "show_variant_labels": false,
+          "show_variant_labels": true,
           "show_vendor": false,
           "enable_payment_button": true,
           "show_share_buttons": false,
