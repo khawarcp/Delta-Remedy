@@ -132,11 +132,11 @@
             {% if product.compare_at_price > product.price %}
             <div class="sale__price">
               {{ product.price | money }} - <s> {{ product.compare_at_price | money }} </s> 
-                <span> You have saved {{discount}} </span>
+                <span> You Save {{discount}} {{ product.compare_at_price | minus : product.price }} </span>
             </div>
             {% elsif product.price_varies %}
               <div class="varies__price">
-                from{{ product.price_min | money }} to {{ product.price_max | money }} </s>
+                from {{ product.price_min | money }} to {{ product.price_max | money }} </s>
               </div>
               {% else %}
                 <div class="regular__price">
