@@ -788,3 +788,10 @@ section.product-detail-accordion.product-detail-loop.about-page-content .product
 a.site-nav__link.site-nav__link--main.site-nav__link--active {
     color: #FBB91E;
 }
+.collection-template-style span.filters-toolbar__product-count {
+    display: none;
+}
+
+.collection-template-style ul.grid.grid--uniform.grid--view-items {
+    overflow: inherit;
+}
