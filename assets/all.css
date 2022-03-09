@@ -1004,4 +1004,11 @@ footer.site-footer .social-icons__item {
 footer.site-footer .social-icons__item:last-child {
     margin-right: 0px;
 }
+  a.site-header__icon.site-header__cart {
+    padding-bottom: 0px;
+}
+
+button.btn--link.site-header__icon.site-header__search-toggle.js-drawer-open-top {
+    padding-bottom: 0px;
+}
 }
