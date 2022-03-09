@@ -8,13 +8,13 @@
           <div class="accordion_container">
             {% for block in section.blocks %}
                 {% if block.settings.quiz != blank %}
-                <div class="accordian-tabs faqs-accordian-tabs" {% unless forloop.first %}
-                    style="display: none;"
-                {% endunless %}>
+                <div class="accordian-tabs faqs-accordian-tabs">
                     <div class="accordion_head">
                     <h3> {{ block.settings.quiz }} </h3>
                     </div>
-                    <div class="accordion_body">
+                    <div class="accordion_body"  {% unless forloop.first %}
+                    style="display: none;"
+                {% endunless %}>
                     <p>
                         {{ block.settings.answer }}
                     </p>
