@@ -45,13 +45,9 @@
 
   <div class="h4 grid-view-item__title product-card__title" aria-hidden="true">{{ product.title }}</div>
 <div class="loox-rating" data-id="{{ product.id }}" data-rating="{{ product.metafields.loox.avg_rating }}" data-raters="{{ product.metafields.loox.num_reviews }}"></div>
-
   {% include 'product-price-listing', product: product, show_vendor: show_vendor %}
-  
-  
-
 </div>
 <form action="/cart/add" method="post" class="add-to-cart-form">
-          <input type="hidden" name="id" value="{{ product.variants.first.id }}">
-          <button type="submit" class="btn"> <span> Add to Cart </span> </button>
-        </form>
+  <input type="hidden" name="id" value="{{ product.variants.first.id }}">
+  <button type="submit" class="btn"> <span> Add to Cart </span> </button>
+</form>
