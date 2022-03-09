@@ -2,7 +2,6 @@
     <div class="page-width">
       <h2> {{ page.title }} </h2>
       <div class="lab-report-flex">
-        {% paginate collection.products by 12 %}
         {% for block in section.blocks %}
             <div class="lab-report-col">
                 <div class="lab-report-text">
@@ -16,10 +15,6 @@
                 </div>
             </div>
         {% endfor %}
-        {% if paginate.pages > 1 %}
-             {% render 'pagination', paginate: paginate %}
-        {% endif %}
-        {% endpaginate %}
       </div>
     </div>
   </section>
