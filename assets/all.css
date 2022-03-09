@@ -907,3 +907,13 @@ p.trustpilot-text {
 .trusted-customer-col img {
     margin-bottom: 10px;
 }
+@media screen and (max-width:1199px){
+  .slideshow {
+    height: 470px !important;
+}
+
+.being-better-bg:before {
+    display: none;
+}
+
+}
