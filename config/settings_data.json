@@ -665,6 +665,42 @@
       },
       "product-image-accordion": {
         "type": "product-image-accordion",
+        "blocks": {
+          "34646acb-4999-4e28-8d84-5ed4f50d710f": {
+            "type": "FAQ",
+            "settings": {
+              "quiz": "What is Delta 8 THC?",
+              "answer": "So you’re curious about trying Delta 8 THC. Congrats! You’re in for a real therapeutic treat. But we get it… You’re not 100% sure if you even understand what Delta 8 THC is, let alone if it’s a legit cannabinoid that’s safe to consume."
+            }
+          },
+          "7d23caab-d84b-46d9-a527-ecb41406a5ef": {
+            "type": "FAQ",
+            "settings": {
+              "quiz": "What Are The Effects Of Delta 8 THC?",
+              "answer": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book"
+            }
+          },
+          "24b6158f-4298-4497-a99c-3f5e8e2525b0": {
+            "type": "FAQ",
+            "settings": {
+              "quiz": "Benefits Of Delta 8 THC",
+              "answer": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book"
+            }
+          },
+          "d129de3b-0640-4917-bd8a-20d5e911da3b": {
+            "type": "FAQ",
+            "settings": {
+              "quiz": "Buying Delta 8 THC",
+              "answer": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book"
+            }
+          }
+        },
+        "block_order": [
+          "34646acb-4999-4e28-8d84-5ed4f50d710f",
+          "7d23caab-d84b-46d9-a527-ecb41406a5ef",
+          "24b6158f-4298-4497-a99c-3f5e8e2525b0",
+          "d129de3b-0640-4917-bd8a-20d5e911da3b"
+        ],
         "settings": {
           "image": "shopify:\/\/shop_images\/delta-thc.png",
           "button_text": "Read More",
