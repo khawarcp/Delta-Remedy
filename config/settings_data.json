@@ -349,6 +349,32 @@
       },
       "product-static-content": {
         "type": "product-static-content",
+        "blocks": {
+          "c3ae7ee7-e584-44ce-9d23-9e82093e83af": {
+            "type": "Image-Text",
+            "settings": {
+              "heading": "Is Delta 8 Legit and Safe to Consume?",
+              "info": "<p>Is Delta 8 Legit and Safe to Consume?<\/p><p>But we get it… You’re not 100% sure if you even understand what Delta 8 THC is, let alone if it’s a legit cannabinoid that’s safe to consume.<\/p><p>But we get it… You’re not 100% sure if you even understand what Delta 8 THC is, let alone if it’s a legit cannabinoid that’s safe to consume.<\/p>",
+              "button_text": "Read More",
+              "link": "#",
+              "image": "shopify:\/\/shop_images\/delta-thc2.png"
+            }
+          },
+          "1da28e46-8e9b-49a9-a02e-4eb858f89c6f": {
+            "type": "Image-Text",
+            "settings": {
+              "heading": "Is Delta 8 Legit and Safe to Consume?",
+              "info": "<p>So you’re curious about trying Delta 8 THC. Congrats! You’re in for a real therapeutic treat.<\/p><p>But we get it… You’re not 100% sure if you even understand what Delta 8 THC is, let alone if it’s a legit cannabinoid that’s safe to consume.<\/p><p>Here’s the good news… Delta 8 THC is 100% a legit, legal cannabinoid! And as for its safety profile, multiple studies have shown it to hold tremendous medicinal properties for the human body. So, yes… High quality, pure Delta 8 THC is safe to consume.<\/p>",
+              "button_text": "Read More",
+              "link": "",
+              "image": "shopify:\/\/shop_images\/delta-thc3.png"
+            }
+          }
+        },
+        "block_order": [
+          "c3ae7ee7-e584-44ce-9d23-9e82093e83af",
+          "1da28e46-8e9b-49a9-a02e-4eb858f89c6f"
+        ],
         "settings": {
         }
       },
