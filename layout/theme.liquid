@@ -109,6 +109,8 @@
   <script src="{{ 'theme.js' | asset_url }}" defer="defer"></script>
 
   {{ content_for_header }}
+
+	{{ shop.metafields.loox["global_html_head"] }}
 </head>
 
 <body class="template-{{ request.page_type | handle }}" style="background-image:url('{{ 'body-bg.png' | asset_img_url : 'master' }}');">
@@ -161,5 +163,7 @@ $('.accordion_head').click(function (e) {
 });
 </script>
   
+
+	{{ shop.metafields.loox["global_html_body"] }}
 </body>
 </html>
