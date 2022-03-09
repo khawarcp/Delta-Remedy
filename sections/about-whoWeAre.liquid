@@ -2,7 +2,23 @@
 <div class="about-title">
     <h2> {{ page.title }} </h2>
     </div>
+    
     <section class="product-detail-accordion product-detail-loop about-page-content">
+        {% for block in section.blocks %}
+            <div class="product-detail-accordion-flex">
+                <div class="product-accordion-img-col">
+                <img src="https://cdn.shopify.com/s/files/1/0631/1280/6647/files/delta-who.png?v=1646740252">
+                {{ section.settings.image | image_url : width : "original" | image_tag }}
+                </div>
+                <div class="product-accordion-text-col">
+                <h3>  {{ block.settings.heading }} </h3>
+                    {{ block.settings.info }}
+                <div class="product-accordion-detail">
+                    <a href="{{ block.settings.link }}" class="btn"><span>{{ block.settings.button_link }}</span></a>
+                </div>
+                </div>
+            </div>
+        {% endfor %}
     <div class="product-detail-accordion-flex">
         <div class="product-accordion-img-col">
         <img src="https://cdn.shopify.com/s/files/1/0631/1280/6647/files/delta-who.png?v=1646740252">
@@ -65,7 +81,12 @@ This may explain why so many CBD advocates are welcoming high quality Delta 8 TH
                    "type": "url",
                    "id": "link",
                    "label": "Link"
-               }
+               },
+              {
+                  "type": "image_picker",
+                  "id": "image",
+                  "label": "Image"
+              }
              
             ]
         }
