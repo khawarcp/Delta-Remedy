@@ -862,3 +862,21 @@ span.pdf-img {
     text-align: center;
     margin-bottom: 40px;
 }
+.accordion_container {
+    max-width: 900px;
+    margin: 0px auto;
+}
+
+.faqs-content .accordian-tabs.faqs-accordian-tabs {
+    border: 0.8px solid #FBB91E;
+    padding: 10px 16px;
+    margin: 0;
+    box-shadow: 2px 6px 17px rgba(0, 0, 0, 0.2);
+    background-color: #2C2C2C;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.faqs-content .accordion_head h4 {
+    font-size: 22px;
+}
