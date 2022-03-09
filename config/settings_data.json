@@ -608,6 +608,67 @@
         ],
         "settings": {
         }
+      },
+      "product-trusted-customer": {
+        "type": "product-trusted-customer",
+        "blocks": {
+          "cd83adcd-1011-4344-a64a-3d05da2b64e8": {
+            "type": "Features",
+            "settings": {
+              "heading": "LAB TESTED <span>FOR ACCURACY<\/span>",
+              "image": "shopify:\/\/shop_images\/trusted-customer-img1.png"
+            }
+          },
+          "4bea82a3-aa82-4556-b59d-d26550eb8a7d": {
+            "type": "Features",
+            "settings": {
+              "heading": "DERIVED FROM LEGAL <span>COMPLIANT HEMP<\/span>",
+              "image": "shopify:\/\/shop_images\/trusted-customer-img2.png"
+            }
+          },
+          "a7afb50d-67cc-4884-bdad-f4eadef306f0": {
+            "type": "Features",
+            "settings": {
+              "heading": "100% NATURAL <span>INGREDIENTS<\/span>",
+              "image": "shopify:\/\/shop_images\/trusted-customer-img3.png"
+            }
+          },
+          "5639f4ee-9288-4c8b-93d7-877d9582dd19": {
+            "type": "Features",
+            "settings": {
+              "heading": "FAST FREE SHIPPING ON <span>EVERY PRODUCT<\/span>",
+              "image": "shopify:\/\/shop_images\/trusted-customer-img4.png"
+            }
+          },
+          "86a5af55-cfd0-4159-bff9-262e4d0ca3f9": {
+            "type": "Features",
+            "settings": {
+              "heading": "RISK FREE <span>30 DAY MONEY BACK<\/span>",
+              "image": "shopify:\/\/shop_images\/trusted-customer-img5.png"
+            }
+          }
+        },
+        "block_order": [
+          "cd83adcd-1011-4344-a64a-3d05da2b64e8",
+          "4bea82a3-aa82-4556-b59d-d26550eb8a7d",
+          "a7afb50d-67cc-4884-bdad-f4eadef306f0",
+          "5639f4ee-9288-4c8b-93d7-877d9582dd19",
+          "86a5af55-cfd0-4159-bff9-262e4d0ca3f9"
+        ],
+        "settings": {
+        }
+      },
+      "product-reviews": {
+        "type": "product-reviews",
+        "settings": {
+        }
+      },
+      "product-image-accordion": {
+        "type": "product-image-accordion",
+        "settings": {
+          "button_text": "Read More",
+          "link": ""
+        }
       }
     },
     "content_for_index": [
