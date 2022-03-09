@@ -1015,4 +1015,16 @@ button.btn--link.site-header__icon.site-header__search-toggle.js-drawer-open-top
   .lab-report-col {
     width: 100%;
 }
+.custom-article-link {
+    padding: 0;
+}
+
+.article__grid-meta.article__grid-meta--has-image {
+    padding: 0;
+    margin-bottom: 10px;
+}
+
+.article__grid-image-container {
+    margin-bottom: 20px;
+}  
 }
