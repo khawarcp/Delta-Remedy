@@ -795,3 +795,58 @@ a.site-nav__link.site-nav__link--main.site-nav__link--active {
 .collection-template-style ul.grid.grid--uniform.grid--view-items {
     overflow: inherit;
 }
+.lab-report-sec h2 {
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.lab-report-flex {
+    max-width: 900px;
+    margin: 0px auto;
+    justify-content: space-between;
+}
+
+.lab-report-col {
+    width: 45%;
+    background-color: #2B2B2E;
+    padding: 40px 20px 20px;
+    border: 1px solid #454545;
+    box-shadow: 2px 7px 48px 2px rgb(0 0 0 / 55%);
+    border-radius: 14px;
+}
+
+span.lab-star {
+    display: block;
+    text-align: left;
+    margin-left: 20px;
+}
+
+.lab-report-text {
+    text-align: center;
+}
+
+span.pdf-img {
+    display: block;
+    margin-bottom: 20px;
+}
+
+.lab-report-text h4 {
+    font-size: 22px;
+    text-transform: capitalize;
+    padding: 0px 35px;
+}
+
+.batch-flex {
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid #8B8B8B;
+    align-items: center;
+    padding-top: 20px;
+}
+
+.batch-flex h6 {
+    margin: 0;
+    color: #FFFFFF;
+    font-family: 'objective_regular';
+    font-size: 14px;
+}
