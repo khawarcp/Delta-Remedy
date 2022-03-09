@@ -1,66 +1,23 @@
-<section class="product-detail-accordion">
-  <div class="page-width">
-    <div class="product-detail-accordion-flex">
-      <div class="product-accordion-img-col">
-        <img src="https://cdn.shopify.com/s/files/1/0631/1280/6647/files/delta-thc.png?v=1646734090">
-      </div>
-      <div class="product-accordion-text-col">
-        <div class="accordion_container">
-          <div class="accordian-tabs faqs-accordian-tabs">
-            <div class="accordion_head">
-              <h3>What is Delta 8 THC? </h3>
-            </div>
-            <div class="accordion_body">
-              <p>
-                So you’re curious about trying Delta 8 THC. Congrats! You’re in for a real therapeutic treat. 
 
-                But we get it… You’re not 100% sure if you even understand what Delta 8 THC is, let alone if it’s a legit cannabinoid that’s safe to consume. 
-              </p>
-            </div>
-          </div>
-          <div class="accordian-tabs faqs-accordian-tabs">
-            <div class="accordion_head">
-              <h4>What are the effects of Delta 8 THC?  
-              </h4>
-            </div>
-            <div class="accordion_body" style="display: none;">
-              <p>
-                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book
-              </p>
-            </div>
-          </div>
-          <div class="accordian-tabs faqs-accordian-tabs">
-            <div class="accordion_head">
-              <h4>Benefits of Delta 8 THC   
-              </h4>
-            </div>
-            <div class="accordion_body" style="display: none;">
-              <p>
-                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book
-              </p>
-            </div>
-          </div>
-          <div class="accordian-tabs faqs-accordian-tabs">
-            <div class="accordion_head">
-              <h4>Buying Delta 8 THC   
-              </h4>
-            </div>
-            <div class="accordion_body" style="display: none;">
-              <p>
-                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book
-              </p>
-            </div>
-          </div>
-        </div>
-        <div class="product-accordion-detail">
-          <a href="#" class="btn"><span>Read More</span></a>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
 <section class="product-detail-accordion product-detail-loop">
   <div class="page-width">
+    {% for block in section.blocks %}
+        <div class="product-detail-accordion-flex">
+          <div class="product-accordion-text-col">
+            <h3> {{ block.settings.heading }} </h3>
+            {{ block.settings.info }}
+            <div class="product-accordion-detail">
+              {% if section.settings.link != blank and section.settings.button_text != blank %}
+              <a href="{{ section.settings.link }}" class="btn"><span>{{ section.settings.button_text }}</span></a>
+              {% endif %}
+            </div>
+          </div>
+          <div class="product-accordion-img-col">
+            <img src="{{  block.settings.image | img_url: 'original' }}" class="lazyload" alt="{{ feature.settings.heading | escape | strip_html }}">
+          </div>
+          
+        </div>
+    {% endfor %}
     <div class="product-detail-accordion-flex">
       <div class="product-accordion-text-col">
         <h3>Is Delta 8 Legit and Safe to Consume?</h3>
@@ -100,14 +57,43 @@
 
 
 {% schema %}
-{
-"name": "Image With Text",
-"settings": []
-}
+    {
+        "name": "Image With Text",
+        "settings": [],
+        "blocks":
+        [
+           {
+               "type" : "Image-Text",
+                "name" : "Image With Text",
+               "settings": [
+                    {
+                        "type": "text",
+                        "id": "heading",
+                        "label": "Heading"
+                    },
+                  {
+                      "type": "richtext",
+                      "id": "info",
+                      "label": "Description"
+                  },
+                  {
+                      "type": "text",
+                      "id": "button_text",
+                      "label": "Button Text",
+                      "default": "Read More"
+                  },
+                  {
+                      "type": "url",
+                      "id": "link",
+                      "label": "Link"
+                  },
+                  {
+                    "type": "image_picker",
+                    "id": "image",
+                    "label": "Image"
+                  }
+               ]
+           }
+        ]
+    }
 {% endschema %}
-
-{% stylesheet %}
-{% endstylesheet %}
-
-{% javascript %}
-{% endjavascript %}
