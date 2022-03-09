@@ -1029,5 +1029,18 @@ button.btn--link.site-header__icon.site-header__search-toggle.js-drawer-open-top
 }
 .slideshow__text-content.slideshow__text-content--mobile.slideshow__text-content--mobile-0 .page-width {
     padding: 0;
+}
+.contact-flex {
+    flex-direction: column;
+}
+
+.contact-info-col {
+    width: 100%;
+}
+
+.contact-form-col {
+    width: 100%;
+    padding: 0;
+    margin-top: 40px;
 }  
 }
