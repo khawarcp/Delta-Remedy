@@ -205,51 +205,56 @@
               {% endfor %}
             </select>
 
-            {% if section.settings.show_quantity_selector %}
-              <div class="qtydiv">
-                <div class="qtybox">
-                  <span class="btnqty qtyminus icon icon-minus">-</span>
-                  <input type="text" id="quantity" name="quantity" value="1" min="1" class="quantity-selector quantity-input" readonly="">
-                  <span class="btnqty qtyplus icon icon-plus">+</span>
+            <div class="quantity-submit__wrapper">
+                <div class="quantity_wrapper">
+                    {% if section.settings.show_quantity_selector %}
+                    <div class="qtydiv">
+                      <div class="qtybox">
+                        <span class="btnqty qtyminus icon icon-minus">-</span>
+                        <input type="text" id="quantity" name="quantity" value="1" min="1" class="quantity-selector quantity-input" readonly="">
+                        <span class="btnqty qtyplus icon icon-plus">+</span>
+                      </div>
+                    </div>
+                  {% endif %}
                 </div>
-              </div>
-            {% endif %}
-
-            <div class="product-form__error-message-wrapper product-form__error-message-wrapper--hidden{% if section.settings.enable_payment_button %} product-form__error-message-wrapper--has-payment-button{% endif %}"
-              data-error-message-wrapper
-              role="alert"
-            >
-              <span class="visually-hidden">{{ 'general.accessibility.error' | t }} </span>
-              {% include 'icon-error' %}
-              <span class="product-form__error-message" data-error-message>{{ 'products.product.quantity_minimum_message' | t }}</span>
-            </div>
-
-            <div class="product-form__controls-group product-form__controls-group--submit">
-              <div class="product-form__item product-form__item--submit
-                {%- if section.settings.enable_payment_button %} product-form__item--payment-button {%- endif -%}
-                {%- if product.has_only_default_variant %} product-form__item--no-variants {%- endif -%}"
-              >
-                <button type="submit" name="add"
-                  {% unless current_variant.available %} aria-disabled="true"{% endunless %}
-                  aria-label="{% unless current_variant.available %}{{ 'products.product.sold_out' | t }}{% else %}{{ 'products.product.add_to_cart' | t }}{% endunless %}"
-                  class="btn product-form__cart-submit{% if section.settings.enable_payment_button %} btn--secondary-accent{% endif %}"
-                  {% if settings.enable_ajax %}aria-haspopup="dialog"{% endif %}
-                  data-add-to-cart>
-                  <span data-add-to-cart-text>
-                    {% unless current_variant.available %}
-                      {{ 'products.product.sold_out' | t }}
-                    {% else %}
-                      {{ 'products.product.add_to_cart' | t }}
-                    {% endunless %}
-                  </span>
-                  <span class="hide" data-loader>
-                    {% include 'icon-spinner' %}
-                  </span>
-                </button>
-                {% if section.settings.enable_payment_button %}
-                  {{ form | payment_button }}
-                {% endif %}
-              </div>
+                <div class="button_wrapper">
+                  <div class="product-form__error-message-wrapper product-form__error-message-wrapper--hidden{% if section.settings.enable_payment_button %} product-form__error-message-wrapper--has-payment-button{% endif %}"
+                  data-error-message-wrapper
+                  role="alert"
+                >
+                  <span class="visually-hidden">{{ 'general.accessibility.error' | t }} </span>
+                  {% include 'icon-error' %}
+                  <span class="product-form__error-message" data-error-message>{{ 'products.product.quantity_minimum_message' | t }}</span>
+                </div>
+    
+                <div class="product-form__controls-group product-form__controls-group--submit">
+                  <div class="product-form__item product-form__item--submit
+                    {%- if section.settings.enable_payment_button %} product-form__item--payment-button {%- endif -%}
+                    {%- if product.has_only_default_variant %} product-form__item--no-variants {%- endif -%}"
+                  >
+                    <button type="submit" name="add"
+                      {% unless current_variant.available %} aria-disabled="true"{% endunless %}
+                      aria-label="{% unless current_variant.available %}{{ 'products.product.sold_out' | t }}{% else %}{{ 'products.product.add_to_cart' | t }}{% endunless %}"
+                      class="btn product-form__cart-submit{% if section.settings.enable_payment_button %} btn--secondary-accent{% endif %}"
+                      {% if settings.enable_ajax %}aria-haspopup="dialog"{% endif %}
+                      data-add-to-cart>
+                      <span data-add-to-cart-text>
+                        {% unless current_variant.available %}
+                          {{ 'products.product.sold_out' | t }}
+                        {% else %}
+                          {{ 'products.product.add_to_cart' | t }}
+                        {% endunless %}
+                      </span>
+                      <span class="hide" data-loader>
+                        {% include 'icon-spinner' %}
+                      </span>
+                    </button>
+                    {% if section.settings.enable_payment_button %}
+                      {{ form | payment_button }}
+                    {% endif %}
+                  </div>
+                </div>
+                </div>
             </div>
           {% endform %}
         </div>
