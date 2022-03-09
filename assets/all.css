@@ -1026,5 +1026,8 @@ button.btn--link.site-header__icon.site-header__search-toggle.js-drawer-open-top
 
 .article__grid-image-container {
     margin-bottom: 20px;
+}
+.slideshow__text-content.slideshow__text-content--mobile.slideshow__text-content--mobile-0 .page-width {
+    padding: 0;
 }  
 }
