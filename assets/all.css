@@ -810,13 +810,15 @@ a.site-nav__link.site-nav__link--main.site-nav__link--active {
 
 .lab-report-col {
     width: 45%;
-    background-color: #2B2B2E;
-    padding: 40px 20px 20px;
-    border: 1px solid #454545;
-    box-shadow: 2px 7px 48px 2px rgb(0 0 0 / 55%);
-    border-radius: 14px;
+    
 }
-
+.lab-report-text{
+  background-color: #2B2B2E;
+  padding: 40px 20px 20px;
+  border: 1px solid #454545;
+  box-shadow: 2px 7px 48px 2px rgb(0 0 0 / 55%);
+  border-radius: 14px;
+}
 span.lab-star {
     display: block;
     text-align: left;
