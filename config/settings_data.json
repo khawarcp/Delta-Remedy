@@ -375,7 +375,7 @@
         "settings": {
           "layout": "grid",
           "grid": 2,
-          "rows": 4,
+          "rows": 1,
           "show_collection_image": false,
           "show_vendor": false,
           "sort_enable": false,
