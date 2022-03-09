@@ -381,6 +381,42 @@
           "sort_enable": false,
           "tags_enable": false
         }
+      },
+      "about-whoWeAre": {
+        "type": "about-whoWeAre",
+        "blocks": {
+          "5ab909b8-05a8-4cfe-9915-c79b8892af74": {
+            "type": "whoWeAre",
+            "settings": {
+              "heading": "Who we are",
+              "info": "<p>Delta 8 is a very rare cannabinoid. In fact, it only exists in the cannabis plant (which includes both marijuana and hemp) in small concentrations of 1% or less. This may explain why cultivators and hemp brands feel like they’ve won the lottery when they get their hands on some Delta. It seems this relatively new cannabinoid is now facing the same hurdles and obstacles that CBD once faced when it first came onto the scene. Wait, who are we kidding? The CBD market is still facing some bumps in the road, but now at least they’re minor compared to what they used to be.<\/p>",
+              "button_text": "Read More",
+              "link": "",
+              "image": "shopify:\/\/shop_images\/delta-who.png"
+            }
+          },
+          "95ba5975-14dc-4558-97ae-0a4d53382fc0": {
+            "type": "whoWeAre",
+            "settings": {
+              "heading": "Our Mission",
+              "info": "<p>One of the studies involved young children. That’s right, scientists actually gave children Delta 8 THC to see if it would help relieve their severe nausea and vomiting from intense chemotherapy treatments. And guess what? It did! Which means this cannabinoid is far more subtle than its more intense cousin, Delta 9 This may explain why so many CBD advocates are welcoming high quality Delta 8 THC with open arms<\/p>",
+              "button_text": "",
+              "link": "",
+              "image": "shopify:\/\/shop_images\/delta-thc2.png"
+            }
+          }
+        },
+        "block_order": [
+          "5ab909b8-05a8-4cfe-9915-c79b8892af74",
+          "95ba5975-14dc-4558-97ae-0a4d53382fc0"
+        ],
+        "settings": {
+        }
+      },
+      "about-why-choose": {
+        "type": "about-why-choose",
+        "settings": {
+        }
       }
     },
     "content_for_index": [
