@@ -858,3 +858,7 @@ span.pdf-img {
     font-family: 'objective_regular';
     font-size: 14px;
 }
+.faqs-sec h2 {
+    text-align: center;
+    margin-bottom: 40px;
+}
