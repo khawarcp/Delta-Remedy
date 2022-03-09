@@ -930,4 +930,24 @@ p.trustpilot-text {
 .site-footer__newsletter .input-group__btn {
     width: 40%;
 }
+  ul.social-sharing li a {
+    background-color: transparent;
+    font-size: 0px;
+    border: 0px;
+    transform: none;
+    padding: 0;
+    width: auto;
+    min-width: auto;
+    margin-right: 20px;
+}
+
+ul.social-sharing li a::before {
+    display: none;
+}
+
+ul.social-sharing li a:hover {
+    color: #fff;
+    background-color: transparent !important;
+}
+
 }
