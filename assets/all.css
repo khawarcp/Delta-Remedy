@@ -915,5 +915,19 @@ p.trustpilot-text {
 .being-better-bg:before {
     display: none;
 }
+.site-footer__item {
+    padding: 0;
+}
 
+.site-footer__item-inner--newsletter .newsletter__submit {
+    font-size: 10px;
+}
+
+.site-footer__item-inner--newsletter .newsletter__input {
+    width: 60%;
+}
+
+.site-footer__newsletter .input-group__btn {
+    width: 40%;
+}
 }
