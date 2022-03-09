@@ -131,7 +131,7 @@
             {% endcapture %}
             {% if product.compare_at_price > product.price %}
             <div class="sale__price">
-              {{ product.price | money }} <s> {{ product.compare_at_price | money }} </s> 
+              {{ product.price | money }} - <s> {{ product.compare_at_price | money }} </s> 
                 <span> You have saved {{discount}} </span>
             </div>
             {% elsif product.price_varies %}
@@ -139,17 +139,11 @@
                 from{{ product.price_min | money }} to {{ product.price_max | money }} </s>
               </div>
               {% else %}
-              <div class="regular__price">
-                {{ product.price | money }}
-              </div>
+                <div class="regular__price">
+                  {{ product.price | money }}
+                </div>
             {% endif %}
-
           </div>
-          
-
-
-<!-- display the % discount -->
-<p class="discount">{{ discount }}</p>
 
           {%- if shop.taxes_included or shop.shipping_policy.body != blank -%}
             <div class="product__policies rte" data-product-policies>
