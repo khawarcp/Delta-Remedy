@@ -35,7 +35,11 @@
   padding: 10px 0px;
 }
 body {
+<<<<<<< HEAD
   background-size: cover;
+=======
+  background-size: 55%;
+>>>>>>> de1502b0e457c6c1af10097b279bd3fb1f1b624c
   background-repeat: repeat;
   background-position: center;
 }
@@ -218,10 +222,17 @@ a.grid-view-item__link.grid-view-item__image-container.full-width-link {
   position: absolute;
   left: 0px;
   right: 0px;
+<<<<<<< HEAD
   top: 0px;
   bottom: 0px;
   background-repeat: no-repeat;
   background-position: center;
+=======
+  bottom: 0px;
+  background-repeat: no-repeat;
+  background-position: center;
+  top: -55px;
+>>>>>>> de1502b0e457c6c1af10097b279bd3fb1f1b624c
 }
 
 .h4.grid-view-item__title.product-card__title {
@@ -1125,6 +1136,63 @@ section.product-detail-accordion.product-detail-loop {
 }
 .product-accordion-text-col h3 {
     text-transform: capitalize;
+}
+li.site-footer__linklist-item a {
+    position: relative;
+    transition:0.2s all;
+}
+
+li.site-footer__linklist-item a::before {
+    content: '';
+    background-image: url('https://cdn.shopify.com/s/files/1/0631/1280/6647/files/quick-arrow.svg?v=1646906244');
+    left: 0px;
+    top: 0px;
+    bottom: 0px;
+    position: absolute;
+    width: 50px;
+    background-size: 27%;
+    background-repeat: no-repeat;
+    background-position: 0px;
+    opacity: 0;
+}
+
+li.site-footer__linklist-item a:hover {
+    padding-left: 22px;
+}
+
+li.site-footer__linklist-item a:hover::before {
+    opacity: 1;
+}
+
+li.site-footer__linklist-item a:hover {
+    color: #FBB91E;
+}
+.batch-flex a:hover img {
+    filter: invert(0%) sepia(10%) saturate(5549%) hue-rotate(343deg) brightness(104%) contrast(97%);
+}
+ul.social-sharing li a {
+    background-color: transparent;
+    border: 0px;
+    font-size: 0px;
+    padding: 0;
+    min-width: auto;
+    transform: none;
+}
+
+ul.social-sharing li a::before {
+    display: none;
+}
+
+ul.social-sharing li a {
+    margin-right: 20px;
+}
+a.site-header__icon.site-header__account  svg {
+    display: none;
+}
+body.template-article .grid__item.medium-up--five-sixths.medium-up--push-one-twelfth {
+    width: 100%;
+    left: 0px;
+    right: 0px;
 }
 @media screen and (max-width:1199px){
   .slideshow {
