@@ -1064,7 +1064,7 @@ span.price-item.price-item--sale {
 
 
 .product-single__media img.feature-row__image {
-  width: 80% !important;
+  width: 100% !important;
   margin: auto !important;
   right: 0;
 }
