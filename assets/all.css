@@ -1159,6 +1159,22 @@ li.site-footer__linklist-item a:hover {
 .batch-flex a:hover img {
     filter: invert(0%) sepia(10%) saturate(5549%) hue-rotate(343deg) brightness(104%) contrast(97%);
 }
+ul.social-sharing li a {
+    background-color: transparent;
+    border: 0px;
+    font-size: 0px;
+    padding: 0;
+    min-width: auto;
+    transform: none;
+}
+
+ul.social-sharing li a::before {
+    display: none;
+}
+
+ul.social-sharing li a {
+    margin-right: 20px;
+}
 @media screen and (max-width:1199px){
   .slideshow {
     height: 470px !important;
