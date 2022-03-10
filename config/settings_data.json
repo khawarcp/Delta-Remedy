@@ -243,24 +243,36 @@
               "slide_title": "The premium form of relaxation",
               "subheading": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam dapibus imperdiet nisivel aliquet. Morbi dictum elit quam, id rhoncus urna blandita.",
               "button_label": "Shop Now",
-              "button_link": "shopify:\/\/collections"
+              "button_link": "shopify:\/\/collections\/shop"
             }
           },
           "1646118924a2ffc586-1": {
             "type": "image",
             "settings": {
-              "image": "shopify:\/\/shop_images\/slide-img1.png",
+              "image": "shopify:\/\/shop_images\/leaf-remedys-img_ee38d37d-68c2-44bf-9856-8241c349965a.png",
               "alignment": "right center",
               "slide_title": "The premium form of relaxation",
               "subheading": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam dapibus imperdiet nisivel aliquet. Morbi dictum elit quam, id rhoncus urna blandita.",
               "button_label": "Shop Now",
-              "button_link": "shopify:\/\/collections"
+              "button_link": "shopify:\/\/collections\/shop"
+            }
+          },
+          "3d197664-b884-4b72-833f-a0e3f26c85d7": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/delta-thc.png",
+              "alignment": "center center",
+              "slide_title": "The premium form of relaxation",
+              "subheading": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam dapibus imperdiet nisivel aliquet. Morbi dictum elit quam, id rhoncus urna blandita.",
+              "button_label": "Shop Now",
+              "button_link": "shopify:\/\/collections\/shop"
             }
           }
         },
         "block_order": [
           "1646118924a2ffc586-0",
-          "1646118924a2ffc586-1"
+          "1646118924a2ffc586-1",
+          "3d197664-b884-4b72-833f-a0e3f26c85d7"
         ],
         "settings": {
           "slideshow_height": "adapt",
@@ -340,7 +352,7 @@
           "show_quantity_selector": true,
           "show_variant_labels": true,
           "show_vendor": false,
-          "enable_payment_button": true,
+          "enable_payment_button": false,
           "show_share_buttons": false,
           "media_size": "medium",
           "enable_image_zoom": true,
@@ -369,11 +381,55 @@
               "link": "#",
               "image": "shopify:\/\/shop_images\/delta-thc3.png"
             }
+          },
+          "b30a95a8-8a4a-4894-b6fc-092c7990a155": {
+            "type": "Image-Text",
+            "settings": {
+              "heading": "Is Delta 8 THC Safe?",
+              "info": "<p>Yes! Delta 8 THC is a very therapeutic cannabinoid. Researchers have conducted a few studies regarding its pain-relieving properties and anti-nausea capabilities. And let’s just say, the results of those studies were groundbreaking [¹,⁴,⁵]. <\/p><p><br\/>One of the studies involved young children. That’s right, scientists actually gave children Delta 8 THC to see if it would help relieve their severe nausea and vomiting from intense chemotherapy treatments. And guess what? It did! Which means this cannabinoid is far more subtle than its more intense cousin, Delta 9 [³]. <br\/><\/p>",
+              "button_text": "Read More",
+              "link": "#",
+              "image": "shopify:\/\/shop_images\/delta-thc3_1a6c9567-30e2-4df7-91c9-79b7d93c9427.png"
+            }
+          },
+          "2777999c-eea7-4ecb-a631-52b2c4314eaf": {
+            "type": "Image-Text",
+            "settings": {
+              "heading": "Where is Delta 8 available?",
+              "info": "<p>Delta 8 is available online, in head shops, and in gas stations. But we highly recommend that you steer clear from buying Delta 8 from head shops and gas stations altogether, as they’re not always carrying the most legit, safe Delta 8 products. <\/p><p><br\/>You see, while pure, hemp-derived Delta 8 THC is safe to consume, not every Delta 8 THC brand is taking the steps to create high quality Delta 8 THC products<br\/><\/p>",
+              "button_text": "Read More",
+              "link": "#",
+              "image": "shopify:\/\/shop_images\/delta-thc4.png"
+            }
+          },
+          "f7c4c688-4b0b-4912-a72e-e2c88783d512": {
+            "type": "Image-Text",
+            "settings": {
+              "heading": "Where can I buy Delta 8?",
+              "info": "<p>The best place to buy high quality Delta 8 THC is from reputable online Delta 8 brands that value total transparency, third party testing, and have an outstanding brand reputation.  <\/p><p><br\/>Here at Delta Remedys, we’ve not only seen how therapeutic Delta 8 THC is, but we’ve experienced it too. Which means our Delta 8 products aren’t just created for our customers, they’re created for our own personal use. <br\/><\/p>",
+              "button_text": "Read More",
+              "link": "",
+              "image": "shopify:\/\/shop_images\/delta-thc5.png"
+            }
+          },
+          "cab72c30-7e6d-4345-ad1e-69ceb2efd691": {
+            "type": "Image-Text",
+            "settings": {
+              "heading": "Where is Delta 8 available?",
+              "info": "<p>Delta 8 is available online, in head shops, and in gas stations. But we highly recommend that you steer clear from buying Delta 8 from head shops and gas stations altogether, as they’re not always carrying the most legit, safe Delta 8 products. <\/p><p><br\/>You see, while pure, hemp-derived Delta 8 THC is safe to consume, not every Delta 8 THC brand is taking the steps to create high quality Delta 8 THC products<br\/><\/p>",
+              "button_text": "Read More",
+              "link": "#",
+              "image": "shopify:\/\/shop_images\/delta-thc6.png"
+            }
           }
         },
         "block_order": [
           "c3ae7ee7-e584-44ce-9d23-9e82093e83af",
-          "1da28e46-8e9b-49a9-a02e-4eb858f89c6f"
+          "1da28e46-8e9b-49a9-a02e-4eb858f89c6f",
+          "b30a95a8-8a4a-4894-b6fc-092c7990a155",
+          "2777999c-eea7-4ecb-a631-52b2c4314eaf",
+          "f7c4c688-4b0b-4912-a72e-e2c88783d512",
+          "cab72c30-7e6d-4345-ad1e-69ceb2efd691"
         ],
         "settings": {
         }
@@ -416,8 +472,8 @@
             "settings": {
               "heading": "Who we are",
               "info": "<p>Delta 8 is a very rare cannabinoid. In fact, it only exists in the cannabis plant (which includes both marijuana and hemp) in small concentrations of 1% or less. This may explain why cultivators and hemp brands feel like they’ve won the lottery when they get their hands on some Delta. It seems this relatively new cannabinoid is now facing the same hurdles and obstacles that CBD once faced when it first came onto the scene. Wait, who are we kidding? The CBD market is still facing some bumps in the road, but now at least they’re minor compared to what they used to be.<\/p>",
-              "button_text": "Read More",
-              "link": "",
+              "button_text": "Contact Us",
+              "link": "shopify:\/\/pages\/contact",
               "image": "shopify:\/\/shop_images\/delta-who.png"
             }
           },
