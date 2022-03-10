@@ -1391,5 +1391,9 @@ section.product-detail-accordion.product-detail-loop.about-page-content .product
 
 .about-why-choose-col h4 {
     font-size: 12px;
-}  
+}
+  .site-footer__linklist-item {
+    padding: 0;
+    margin-bottom: 15px;
+}
 }
