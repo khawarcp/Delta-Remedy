@@ -1186,6 +1186,17 @@ body.template-article .grid__item.medium-up--five-sixths.medium-up--push-one-twe
 a.site-header__icon.site-header__account {
     padding-bottom: 0;
 }
+section.product-detail-accordion.product-detail-loop.about-page-content .product-accordion-text-col {
+    padding-left: 0px;
+}
+
+.about-why-choose-col {
+    width: 50%;
+}
+
+.about-why-choose-col h4 {
+    font-size: 12px;
+}
 @media screen and (max-width:1199px){
   .slideshow {
     height: 470px !important;
