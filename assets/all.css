@@ -1156,6 +1156,9 @@ li.site-footer__linklist-item a:hover::before {
 li.site-footer__linklist-item a:hover {
     color: #FBB91E;
 }
+.batch-flex a:hover img {
+    filter: invert(0%) sepia(10%) saturate(5549%) hue-rotate(343deg) brightness(104%) contrast(97%);
+}
 @media screen and (max-width:1199px){
   .slideshow {
     height: 470px !important;
