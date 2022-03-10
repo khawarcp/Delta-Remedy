@@ -1041,6 +1041,9 @@ button#menu-btn svg path {
 button#write:hover {
     background-color: transparent;
 }
+.summary {
+    color: #fff;
+}
 
   @media screen and (max-width:1199px){
     .slideshow {
