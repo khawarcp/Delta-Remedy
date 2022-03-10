@@ -1055,6 +1055,9 @@ span.price-item.price-item--sale {
 .price-item {
     font-weight: 400;
 }
+.loox-rating {
+    margin-bottom: 6px;
+}
 @media screen and (max-width:1199px){
   .slideshow {
     height: 470px !important;
