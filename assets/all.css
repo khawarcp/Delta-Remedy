@@ -1106,7 +1106,17 @@ img.product-single__thumbnail-image {
 .qtybox span {
     cursor: pointer;
 }
+.product-detail-accordion-flex {
+    margin-top: 60px;
+}
 
+.product-detail-accordion-flex:first-child {
+    margin-top: 0px;
+}
+
+section.product-detail-accordion.product-detail-loop {
+    padding-top: 0px;
+}
 @media screen and (max-width:1199px){
   .slideshow {
     height: 470px !important;
