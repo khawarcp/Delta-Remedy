@@ -1178,6 +1178,11 @@ ul.social-sharing li a {
 a.site-header__icon.site-header__account  svg {
     display: none;
 }
+body.template-article .grid__item.medium-up--five-sixths.medium-up--push-one-twelfth {
+    width: 100%;
+    left: 0px;
+    right: 0px;
+}
 @media screen and (max-width:1199px){
   .slideshow {
     height: 470px !important;
