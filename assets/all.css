@@ -1126,6 +1126,35 @@ section.product-detail-accordion.product-detail-loop {
 .product-accordion-text-col h3 {
     text-transform: capitalize;
 }
+li.site-footer__linklist-item a {
+    position: relative;
+}
+
+li.site-footer__linklist-item a::before {
+    content: '';
+    background-image: url('https://cdn.shopify.com/s/files/1/0631/1280/6647/files/quick-arrow.svg?v=1646906244');
+    left: 0px;
+    top: 0px;
+    bottom: 0px;
+    position: absolute;
+    width: 50px;
+    background-size: 27%;
+    background-repeat: no-repeat;
+    background-position: 0px;
+    opacity: 0;
+}
+
+li.site-footer__linklist-item a:hover {
+    padding-left: 22px;
+}
+
+li.site-footer__linklist-item a:hover::before {
+    opacity: 1;
+}
+
+li.site-footer__linklist-item a:hover {
+    color: #FBB91E;
+}
 @media screen and (max-width:1199px){
   .slideshow {
     height: 470px !important;
