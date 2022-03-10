@@ -961,7 +961,6 @@
       color: #FFFFFF;
   }
   
-  label {}
   
   select#SingleOptionSelector-0:focus {
       border: 0px;
@@ -1005,6 +1004,22 @@
       font-family: 'minion_regular';
       font-size: 18px;
   }
+
+  .quantity-submit__wrapper {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+  }
+  
+  .product-form__item.product-form__item--submit {
+      margin: 0;
+  }
+  
+  .product-form__item.product-form__item--submit .btn {
+      min-width: 170px;
+  }
+
+
   @media screen and (max-width:1199px){
     .slideshow {
       height: 470px !important;
