@@ -1019,7 +1019,7 @@
       min-width: 170px;
   }
 .star {
-    color: #FBB91E;
+    color: #FBB91E !important;
 }
 
 .summary-text span {
@@ -1040,6 +1040,9 @@ button#menu-btn svg path {
 
 button#write:hover {
     background-color: transparent;
+}
+iframe > * {
+    color: #fff;
 }
 
   @media screen and (max-width:1199px){
