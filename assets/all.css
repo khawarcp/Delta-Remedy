@@ -1120,6 +1120,9 @@ section.product-detail-accordion.product-detail-loop {
 .accordion_head h3{
   text-transform:capitalize;
 }
+.about-title h2 {
+    margin-bottom: 35px;
+}
 @media screen and (max-width:1199px){
   .slideshow {
     height: 470px !important;
