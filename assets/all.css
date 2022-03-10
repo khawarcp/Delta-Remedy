@@ -1047,6 +1047,14 @@ iframe > * {
 .trusted-customer {
     padding: 60px 0px;
 }
+span.price-item.price-item--sale {
+    color: #fff !important;
+    font-weight: 400;
+}
+
+.price-item {
+    font-weight: 400;
+}
 @media screen and (max-width:1199px){
   .slideshow {
     height: 470px !important;
