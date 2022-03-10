@@ -1099,6 +1099,13 @@ img.product-single__thumbnail-image {
   justify-content: center;
   padding: 10px;
 }
+.product-form input:focus {
+    outline: 0px;
+}
+
+.qtybox span {
+    cursor: pointer;
+}
 @media screen and (max-width:1199px){
   .slideshow {
     height: 470px !important;
