@@ -243,7 +243,7 @@
               "slide_title": "The premium form of relaxation",
               "subheading": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam dapibus imperdiet nisivel aliquet. Morbi dictum elit quam, id rhoncus urna blandita.",
               "button_label": "Shop Now",
-              "button_link": "shopify:\/\/collections"
+              "button_link": "shopify:\/\/collections\/shop"
             }
           },
           "1646118924a2ffc586-1": {
@@ -254,7 +254,7 @@
               "slide_title": "The premium form of relaxation",
               "subheading": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam dapibus imperdiet nisivel aliquet. Morbi dictum elit quam, id rhoncus urna blandita.",
               "button_label": "Shop Now",
-              "button_link": "shopify:\/\/collections"
+              "button_link": "shopify:\/\/collections\/shop"
             }
           }
         },
@@ -340,7 +340,7 @@
           "show_quantity_selector": true,
           "show_variant_labels": true,
           "show_vendor": false,
-          "enable_payment_button": true,
+          "enable_payment_button": false,
           "show_share_buttons": false,
           "media_size": "medium",
           "enable_image_zoom": true,
