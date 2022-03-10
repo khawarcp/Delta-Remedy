@@ -249,8 +249,19 @@
           "1646118924a2ffc586-1": {
             "type": "image",
             "settings": {
-              "image": "shopify:\/\/shop_images\/slide-img1.png",
+              "image": "shopify:\/\/shop_images\/leaf-remedys-img_ee38d37d-68c2-44bf-9856-8241c349965a.png",
               "alignment": "right center",
+              "slide_title": "The premium form of relaxation",
+              "subheading": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam dapibus imperdiet nisivel aliquet. Morbi dictum elit quam, id rhoncus urna blandita.",
+              "button_label": "Shop Now",
+              "button_link": "shopify:\/\/collections\/shop"
+            }
+          },
+          "3d197664-b884-4b72-833f-a0e3f26c85d7": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/delta-thc.png",
+              "alignment": "center center",
               "slide_title": "The premium form of relaxation",
               "subheading": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam dapibus imperdiet nisivel aliquet. Morbi dictum elit quam, id rhoncus urna blandita.",
               "button_label": "Shop Now",
@@ -260,7 +271,8 @@
         },
         "block_order": [
           "1646118924a2ffc586-0",
-          "1646118924a2ffc586-1"
+          "1646118924a2ffc586-1",
+          "3d197664-b884-4b72-833f-a0e3f26c85d7"
         ],
         "settings": {
           "slideshow_height": "adapt",
