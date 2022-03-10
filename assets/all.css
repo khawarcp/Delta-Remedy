@@ -1044,7 +1044,9 @@ button#write:hover {
 iframe > * {
   color: #fff;
 }
-
+.trusted-customer {
+    padding: 60px 0px;
+}
 @media screen and (max-width:1199px){
   .slideshow {
     height: 470px !important;
