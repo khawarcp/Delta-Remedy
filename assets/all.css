@@ -1117,6 +1117,9 @@ img.product-single__thumbnail-image {
 section.product-detail-accordion.product-detail-loop {
     padding-top: 0px;
 }
+.accordion_head h3{
+  text-transform:capitalize;
+}
 @media screen and (max-width:1199px){
   .slideshow {
     height: 470px !important;
