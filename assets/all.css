@@ -1019,7 +1019,7 @@
       min-width: 170px;
   }
 .star {
-    color: #FBB91E;
+    color: #FBB91E !important;
 }
 
 .summary-text span {
