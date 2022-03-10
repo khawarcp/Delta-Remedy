@@ -218,10 +218,10 @@ a.grid-view-item__link.grid-view-item__image-container.full-width-link {
   position: absolute;
   left: 0px;
   right: 0px;
-  top: 0px;
   bottom: 0px;
   background-repeat: no-repeat;
   background-position: center;
+  top: -55px;
 }
 
 .h4.grid-view-item__title.product-card__title {
