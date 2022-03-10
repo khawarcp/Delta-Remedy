@@ -1058,6 +1058,9 @@ span.price-item.price-item--sale {
 .loox-rating {
     margin-bottom: 6px;
 }
+.product-single__meta .sale__price {
+    margin-bottom: 6px;
+}
 @media screen and (max-width:1199px){
   .slideshow {
     height: 470px !important;
