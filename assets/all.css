@@ -1175,6 +1175,9 @@ ul.social-sharing li a::before {
 ul.social-sharing li a {
     margin-right: 20px;
 }
+a.site-header__icon.site-header__account  svg {
+    display: none;
+}
 @media screen and (max-width:1199px){
   .slideshow {
     height: 470px !important;
