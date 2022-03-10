@@ -1018,7 +1018,29 @@
   .product-form__item.product-form__item--submit .btn {
       min-width: 170px;
   }
+.star {
+    color: #FBB91E;
+}
 
+.summary-text span {
+    color: #fff;
+}
+
+button.header-chevron svg path {
+    fill: #fff;
+}
+
+button#write {
+    color: #fff;
+}
+
+button#menu-btn svg path {
+    fill: #FBB91E !important;
+}
+
+button#write:hover {
+    background-color: transparent;
+}
 
   @media screen and (max-width:1199px){
     .slideshow {
