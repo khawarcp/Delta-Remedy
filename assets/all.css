@@ -1041,7 +1041,7 @@ button#menu-btn svg path {
 button#write:hover {
     background-color: transparent;
 }
-.summary {
+iframe > * {
     color: #fff;
 }
 
