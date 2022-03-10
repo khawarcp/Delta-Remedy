@@ -1128,6 +1128,7 @@ section.product-detail-accordion.product-detail-loop {
 }
 li.site-footer__linklist-item a {
     position: relative;
+    transition:0.2s all;
 }
 
 li.site-footer__linklist-item a::before {
