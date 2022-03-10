@@ -922,6 +922,21 @@ p.cart__remove a {
 .qtydiv .quantity-input{border: none;border: none;padding: 8px;text-align: center;width: 50px;outline: none;display: inline-block;}
 .qtydiv {display: inline-block;padding-right: 15px;padding-top: 10px;}
 
+
+.quantity-submit__wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.product-form__item.product-form__item--submit {
+    margin: 0;
+}
+
+.product-form__item.product-form__item--submit .btn {
+    min-width: 170px;
+}
+
 @media screen and (max-width:1199px){
   .slideshow {
     height: 470px !important;
