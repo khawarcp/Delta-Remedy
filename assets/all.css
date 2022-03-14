@@ -1213,6 +1213,11 @@ a.social-icons__link:hover svg path {
   font-size: 20px;
   color: #fbb91e;
 }
+
+.site-footer-more-space {
+  margin-top: 75px;
+}
+
 @media screen and (max-width:1199px){
   .slideshow {
     height: 470px !important;
