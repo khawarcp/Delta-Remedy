@@ -550,6 +550,10 @@ span {
   resize: none;
 }
 
+.footer_logo{
+  margin-bottom: 20px;
+}
+
 .contact-social-icons li a:hover svg path {
   fill: #fbb91e;
 }
