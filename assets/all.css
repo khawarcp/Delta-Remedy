@@ -1199,6 +1199,10 @@ a.social-icons__link:hover svg path {
   text-transform: capitalize;
 }
 
+.product-detail-accordion-flex:nth-child(even) .product-accordion-img-col::before {
+  background-image: url('https://cdn.shopify.com/s/files/1/0631/1280/6647/files/Polygon_right.png?v=1647242542');
+}
+
 @media screen and (max-width:1199px){
   .slideshow {
     height: 470px !important;
