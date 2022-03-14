@@ -1219,6 +1219,20 @@ a.social-icons__link:hover svg path {
   padding-top: 25px;
 }
 
+.template-article article.page-width {
+  max-width: 100%;
+  padding-right: 65px;
+  padding-left: 65px;
+}
+
+ul.social-sharing li a:hover {
+  background-color: transparent !important;
+  color: #fff;
+}
+
+ul.social-sharing li a:hover svg path {
+  fill: #e9ad1f;
+}
 @media screen and (max-width:1199px){
   .slideshow {
     height: 470px !important;
