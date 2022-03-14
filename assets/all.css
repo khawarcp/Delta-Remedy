@@ -1205,13 +1205,14 @@ a.social-icons__link:hover svg path {
 
 .social_share{
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
 }
-.share_text{
-  margin-right: 20px;
+.share_text {
+  margin-right: 75px;
+  font-size: 20px;
+  color: #fbb91e;
 }
-
 @media screen and (max-width:1199px){
   .slideshow {
     height: 470px !important;
