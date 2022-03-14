@@ -554,6 +554,10 @@ span {
   margin-bottom: 20px;
 }
 
+.disclaimer-text{
+  padding: 30px 0;
+}
+
 .contact-social-icons li a:hover svg path {
   fill: #fbb91e;
 }
