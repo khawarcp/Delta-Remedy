@@ -1246,7 +1246,7 @@ ul.pagination li a:hover {
   color: #e9ad1f;
 }
 
-ul.pagination li a:hover {
+ul.pagination li a:hover svg {
   color: #000;
 }
 
