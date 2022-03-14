@@ -149,7 +149,7 @@
              {{ block.shopify_attributes }}>
           <div class="site-footer__item-inner site-footer__item-inner--{{ block.type }}">
 
-            {%- if block.settings.title -%}
+            {%- if block.settings.title != blank -%}
               <p class="h4">{{ block.settings.title | escape }}</p>
             {%- endif -%}
 
@@ -205,10 +205,12 @@
                 </div>
 
               {%- when 'text' -%}
-                {%- if block.settings.text != blank -%}
-                  <div class="footer_logo">
-                      <img src="{{ block.settings.footer_logo | img_url : "master" }}" class="layzload">
+              {% if block.settings.footer_logo != blank %}
+                  <div class="footer_logo">                     
+                      <img src="{{ block.settings.footer_logo | img_url : "master" }}" class="layzload">                     
                   </div>
+                  {% endif %}
+                  {%- if block.settings.footer_logo != blank -%}
                   <div class="site-footer__rte
                               {% if section.blocks.size == 1 %} site-footer__single-block--centered{% endif %}">
                       {{ block.settings.text }}
