@@ -762,6 +762,13 @@
               "answer": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book"
             }
           },
+          "a855fc2b-5fe4-4671-9c58-26353563e4bc": {
+            "type": "FAQ",
+            "settings": {
+              "quiz": "Does Delta 8 THC get you high?",
+              "answer": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book"
+            }
+          },
           "24b6158f-4298-4497-a99c-3f5e8e2525b0": {
             "type": "FAQ",
             "settings": {
@@ -780,6 +787,7 @@
         "block_order": [
           "34646acb-4999-4e28-8d84-5ed4f50d710f",
           "7d23caab-d84b-46d9-a527-ecb41406a5ef",
+          "a855fc2b-5fe4-4671-9c58-26353563e4bc",
           "24b6158f-4298-4497-a99c-3f5e8e2525b0",
           "d129de3b-0640-4917-bd8a-20d5e911da3b"
         ],
