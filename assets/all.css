@@ -1264,6 +1264,10 @@ ul.social-sharing li a:hover svg path {
     padding: 0;
 }
 
+.pagination {
+    margin-top: 60px;
+}
+
 
 @media screen and (max-width:1199px){
   .slideshow {
