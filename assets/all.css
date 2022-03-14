@@ -1233,6 +1233,13 @@ ul.social-sharing li a:hover {
 ul.social-sharing li a:hover svg path {
   fill: #e9ad1f;
 }
+
+.faqs-content {
+  margin-bottom: 100px;
+}
+
+
+
 @media screen and (max-width:1199px){
   .slideshow {
     height: 470px !important;
