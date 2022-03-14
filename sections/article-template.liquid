@@ -20,7 +20,14 @@
 </div>
 
 {% if section.settings.show_share_buttons %}
- Share:  {% include 'social-sharing', share_title: article.title, share_permalink: article.url, share_image: article.image %}
+<div class="social_share">
+  <div class="share_text">
+    Share :
+  </div>
+  <div class="share_icons">
+    {% include 'social-sharing', share_title: article.title, share_permalink: article.url, share_image: article.image %}
+    </div>
+</div>
 {% endif %}
 
 

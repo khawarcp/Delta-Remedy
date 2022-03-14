@@ -1203,6 +1203,15 @@ a.social-icons__link:hover svg path {
   background-image: url('https://cdn.shopify.com/s/files/1/0631/1280/6647/files/Polygon_right.png?v=1647242542');
 }
 
+.social_share{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.share_text{
+  margin-right: 20px;
+}
+
 @media screen and (max-width:1199px){
   .slideshow {
     height: 470px !important;
@@ -1247,11 +1256,26 @@ a.social-icons__link:hover svg path {
   }
 
 }
+
+
+@media screen and (max-width : 991px) {
+  .product-accordion-text-col h3 {
+    font-size: 22px;
+  }
+  
+  .product-accordion-text-col .accordion_body p {
+    font-size: 14px;
+  }
+  
+  .product-accordion-img-col {
+    padding: 80px 15px 60px;
+  }
+}
+
 @media screen and (max-width:767px){
   .slideshow__image.box.ratio-container {
     background-size: 95%;
     background-position: center !important;
-    / height: 300px; /
   }
 
   .slideshow__text-content.slideshow__text-content--mobile.slideshow__text-content--mobile-1  .page-width {
