@@ -207,7 +207,7 @@
               {%- when 'text' -%}
               {% if block.settings.footer_logo != blank %}
                   <div class="footer_logo">                     
-                      <img src="{{ block.settings.footer_logo | img_url : "master" }}" class="layzload">                     
+                     <a href="{{ routes.root_url }}"> <img src="{{ block.settings.footer_logo | img_url : "master" }}" class="layzload"> </a>                      
                   </div>
                   {% endif %}
                   {%- if block.settings.footer_logo != blank -%}
@@ -238,6 +238,12 @@
         </div>
       {%- endfor -%}
     </div>
+  </div>
+
+  <hr class="site-footer__hr">
+
+  <div class="disclaimer-text">
+    &copy; {{ 'now' | date: "%Y" }}
   </div>
 
   <hr class="site-footer__hr">
@@ -448,6 +454,11 @@
       "type" : "text",
         "id" :"disclaim",
         "label" : "Disclaimer Link"
+    },
+    {
+      "type" : "text",
+        "id" :"disclaim_text",
+        "label" : "Disclaimer Text"
     },
     {
       "type": "header",
