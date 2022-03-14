@@ -1242,9 +1242,14 @@ ul.social-sharing li a:hover svg path {
 
 
 ul.pagination li a:hover {
-  background-color: e9ad1f !important;
+  background-color: #e9ad1f !important;
   color: #e9ad1f;
 }
+
+ul.pagination li a:hover {
+  color: #000;
+}
+
 
 .faqs-content {
   margin-bottom: 100px;
