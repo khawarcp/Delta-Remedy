@@ -44,7 +44,9 @@
   </noscript>
 
   <div class="h4 grid-view-item__title product-card__title" aria-hidden="true">{{ product.title }}</div>
+    {% comment %}
 <div class="loox-rating" data-id="{{ product.id }}" data-rating="{{ product.metafields.loox.avg_rating }}" data-raters="{{ product.metafields.loox.num_reviews }}"></div>
+{% endcomment %}
   {% include 'product-price-listing', product: product, show_vendor: show_vendor %}
 </div>
 <form action="/cart/add" method="post" class="add-to-cart-form">
