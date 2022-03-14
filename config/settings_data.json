@@ -189,11 +189,11 @@
       "footer": {
         "type": "footer",
         "blocks": {
-          "footer-0": {
-            "type": "link_list",
+          "3b4831cb-3935-42e2-ad94-3f14429eb5a6": {
+            "type": "text",
             "settings": {
-              "title": "Shop By Category",
-              "menu": "footer"
+              "title": "",
+              "text": "<p>Our products are made from the highest quality Colorado grown Hemp, and are 100% US made.<\/p>"
             }
           },
           "faa27b48-11a4-44d5-b75b-2bf057212aaa": {
@@ -218,7 +218,7 @@
           }
         },
         "block_order": [
-          "footer-0",
+          "3b4831cb-3935-42e2-ad94-3f14429eb5a6",
           "faa27b48-11a4-44d5-b75b-2bf057212aaa",
           "98e6a6c0-b9bc-48d8-8f80-e92af9ed7a69",
           "footer-1"
