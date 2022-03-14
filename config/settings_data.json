@@ -310,7 +310,7 @@
           "title": "Start being better today",
           "info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam dapibus imperdiet nisivel aliquet saorbi dictum elitquam, id rhoncus urna blandita.",
           "collection": "featured-collection",
-          "grid": 3,
+          "grid": 2,
           "rows": 1,
           "show_vendor": false,
           "show_view_all": false
