@@ -1216,6 +1216,7 @@ a.social-icons__link:hover svg path {
 
 .site-footer-more-space {
   margin-top: 75px;
+  padding-top: 25px;
 }
 
 @media screen and (max-width:1199px){
