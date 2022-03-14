@@ -198,7 +198,9 @@
                     {% endif %}
                   {% endform %}
                   <div class="pdf-export">
-                    <a href="#" class="discrimer-link"><img src="https://cdn.shopify.com/s/files/1/0631/1280/6647/files/discrimer.png?v=1646630229"></a>
+                    {% if section.settings.disclaim != blank %}
+                    <a href="{{ section.settings.disclaim }}" class="discrimer-link"><img src="https://cdn.shopify.com/s/files/1/0631/1280/6647/files/discrimer.png?v=1646630229"></a>                      
+                    {% endif %}
                   </div>
                 </div>
 
@@ -439,6 +441,11 @@
         "zh-TW": "顯示付款圖示"
       },
       "default": false
+    },
+    {
+      "type" : "text",
+        "id" :"disclaim",
+        "label" : "Disclaimer Link"
     },
     {
       "type": "header",
