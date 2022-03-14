@@ -43,7 +43,7 @@
           "logo_max_width": 130,
           "main_linklist": "main-menu",
           "message": true,
-          "home_page_only": true,
+          "home_page_only": false,
           "message_text": "Free Shipping on all order within U.S.",
           "message_link": "",
           "color_bg": "#fbb91e",
