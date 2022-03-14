@@ -228,6 +228,7 @@
           "info": "Subscribe to our sales newsletter to stay up to date with our latest products & services.",
           "show_payment_icons": true,
           "disclaim": "",
+          "disclaim_text": "FDA DISCLOSURE The statements made regarding these products have not been evaluated by the Food and Drug Administration. The efficacy of these products has not been confirmed by FDA-approved research. These products are not intended to diagnose, treat, cure or prevent any disease. All information presented here is not meant as a substitute for or alternative to information from health care practitioners. Please consult your health care professional about potential interactions or other possible complications before using any product. The Federal Food, Drug, and Cosmetic Act require this notice.",
           "color_footer_bg": "rgba(0,0,0,0)",
           "color_footer_text": "#ffffff",
           "show_locale_selector": true,
