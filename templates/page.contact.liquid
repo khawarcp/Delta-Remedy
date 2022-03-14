@@ -2,7 +2,7 @@
   <div class="grid">
     <div class="grid__item">
       <div class="section-header text-center">
-        <h1>Contact Us</h1>
+        <h1> {{ page.title }} </h1>
       </div>
 
       {% if page.content.size > 0 %}
@@ -11,38 +11,8 @@
       </div>
       {% endif %}
       <div class="contact-flex">
-        <div class="contact-info-col">
-          <h3>Contact Info</h3>
-          <div class="contact-info-list">
-            <ul>
-              <li>
-                <span><img src="https://cdn.shopify.com/s/files/1/0631/1280/6647/files/location-img_4a01f7aa-4292-4927-8d4d-3781b48b95ba.svg?v=1646635090"></span>5443 O'Keefe Alley, USA
-              </li>
-              <li><a href="#"><span><img src="https://cdn.shopify.com/s/files/1/0631/1280/6647/files/phone-img.svg?v=1646633598"></span>+88 (0) 202 0000 001</a></li>
-              <li><a href="#"><span><img src="https://cdn.shopify.com/s/files/1/0631/1280/6647/files/mail-img.svg?v=1646633645"></span>email@studioblue.com </a></li>
-            </ul>
-          </div>
-          <div class="contact-social-icons">
-            <ul>
-              <li><a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="10" height="18" viewBox="0 0 10 18" fill="none">
-                <path d="M9.60409 6.49989H6.66659V4.83322C6.66659 3.97322 6.73659 3.43156 7.96909 3.43156H9.52575V0.781556C8.76825 0.703223 8.00659 0.664889 7.24409 0.666556C4.98325 0.666556 3.33325 2.04739 3.33325 4.58239V6.49989H0.833252V9.83322L3.33325 9.83239V17.3332H6.66659V9.83072L9.22159 9.82989L9.60409 6.49989Z" fill="white"/>
-                </svg></a>
-              </li>
-              <li><a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="16" viewBox="0 0 18 16" fill="none">
-                <path d="M17.6668 2.62485C17.0288 2.90819 16.3434 3.09885 15.6241 3.18485C16.3588 2.74485 16.9221 2.04819 17.1874 1.21752C16.5008 1.62485 15.7394 1.92085 14.9288 2.08085C14.2801 1.38952 13.3561 0.95752 12.3334 0.95752C10.3694 0.95752 8.77743 2.55019 8.77743 4.51352C8.77743 4.79219 8.80943 5.06419 8.86943 5.32352C5.9141 5.17552 3.2941 3.75952 1.53943 1.60752C1.2341 2.13285 1.05876 2.74352 1.05876 3.39619C1.05876 4.62952 1.6861 5.71819 2.6401 6.35552C2.05743 6.33685 1.50876 6.17685 1.02943 5.91085C1.02943 5.92619 1.02943 5.94019 1.02943 5.95552C1.02943 7.67885 2.25476 9.11619 3.8821 9.44219C3.5841 9.52352 3.26943 9.56685 2.94476 9.56685C2.7161 9.56685 2.49276 9.54419 2.2761 9.50352C2.72876 10.9162 4.0421 11.9449 5.5981 11.9735C4.38143 12.9275 2.8481 13.4962 1.18143 13.4962C0.894764 13.4962 0.61143 13.4795 0.332764 13.4462C1.90676 14.4549 3.77543 15.0435 5.7841 15.0435C12.3254 15.0435 15.9014 9.62485 15.9014 4.92552C15.9014 4.77152 15.8981 4.61819 15.8914 4.46552C16.5868 3.96352 17.1901 3.33752 17.6668 2.62485Z" fill="white"/>
-                </svg></a></li>
-              <li><a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="14" height="15" viewBox="0 0 14 15" fill="none">
-                <path d="M2.40161 0.5C1.48974 0.5 0.75 1.23852 0.75 2.15039C0.75 3.06227 1.48914 3.81787 2.40039 3.81787C3.31164 3.81787 4.052 3.06227 4.052 2.15039C4.052 1.23914 3.31349 0.5 2.40161 0.5ZM10.4595 4.875C9.0726 4.875 8.27906 5.60028 7.89844 6.32153H7.85815V5.06909H5.125V14.25H7.9729V9.70532C7.9729 8.50782 8.06329 7.35059 9.54517 7.35059C11.0058 7.35059 11.0271 8.71601 11.0271 9.78101V14.25H13.8713H13.875V9.20728C13.875 6.73978 13.3445 4.875 10.4595 4.875ZM0.977051 5.06909V14.25H3.82739V5.06909H0.977051Z" fill="white"/>
-                </svg></a></li>
-              <li><a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="13" height="17" viewBox="0 0 13 17" fill="none">
-                <path d="M7.05859 0.5C3.88547 0.5 0.75 2.61458 0.75 6.03833C0.75 8.21521 1.97405 9.45264 2.71655 9.45264C3.0228 9.45264 3.19995 8.59892 3.19995 8.35767C3.19995 8.07017 2.46631 7.45737 2.46631 6.2605C2.46631 3.77425 4.35897 2.01245 6.80835 2.01245C8.9146 2.01245 10.4729 3.20848 10.4729 5.40723C10.4729 7.0491 9.81368 10.1289 7.67993 10.1289C6.90993 10.1289 6.25171 9.57265 6.25171 8.77515C6.25171 7.6064 7 6.47432 7 5.26807C7 3.22057 4.16431 3.59203 4.16431 6.06641C4.16431 6.58578 4.22906 7.16066 4.46094 7.63379C4.03469 9.47066 3.25 12.3984 3.25 14.2915C3.25 14.8759 3.33354 15.4509 3.38916 16.0359C3.49416 16.1534 3.44216 16.141 3.60278 16.0823C5.16153 13.9485 5.01692 13.3401 5.72192 10.5476C6.10255 11.2714 7.0861 11.6609 7.86548 11.6609C11.1499 11.6609 12.625 8.46009 12.625 5.57446C12.625 2.50384 9.97172 0.5 7.05859 0.5Z" fill="white"/>
-                </svg></a></li>
-            </ul>
-          </div>
-          <div class="google-map">
-            <div class="mapouter"><div class="gmap_canvas"><iframe class="gmap_iframe" width="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=2048&amp;height=337&amp;hl=en&amp;q=5443 O'Keefe Alley, USA&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe><a href="https://kokagames.com/">FNF</a></div><style>.mapouter{position:relative;text-align:right;width:100%;height:337px;}.gmap_canvas {overflow:hidden;background:none!important;width:100%;height:337px;}.gmap_iframe {height:337px!important;}</style></div>
-          </div>
-        </div>
+        {% section 'contact-info' %}
+        
         <div class="contact-form-col">
         <div class="contact-form form-vertical">
           <h3>Send Us a mesaage</h3>
