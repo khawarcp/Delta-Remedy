@@ -738,7 +738,7 @@ section.product-detail-accordion.product-detail-loop.about-page-content .product
 }
 section.product-detail-accordion.product-detail-loop.about-page-content .product-detail-accordion-flex:nth-child(even) .product-accordion-text-col {
   padding-left: 0px;
-  padding-right: 40px;
+  padding-right: 80px;
 }
 .about-why-choose h2 {
   text-align: center;
