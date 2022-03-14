@@ -25,7 +25,7 @@
   {% endunless %}
   {% assign count = paginate.pages %}
   {% for part in (1..count) %}
-  <li {% if paginate.current_page == part %}class="pagination__text page-active"{% endif %}><a class="btn" href="{{ collection.url }}?page={{ forloop.index }}">{{ forloop.index }}</a></li>
+  <li {% if paginate.current_page == part %}class="pagination__text page-active"{% endif %}><a class="paginate-btn" href="{{ collection.url }}?page={{ forloop.index }}">{{ forloop.index }}</a></li>
   {% endfor %}
   
   {% unless paginate.next.is_link %}
