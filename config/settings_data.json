@@ -193,7 +193,8 @@
             "type": "text",
             "settings": {
               "title": "",
-              "text": "<p>Our products are made from the highest quality Colorado grown Hemp, and are 100% US made.<\/p>"
+              "text": "<p>Our products are made from the highest quality Colorado grown Hemp, and are 100% US made.<\/p>",
+              "footer_logo": "shopify:\/\/shop_images\/logo.png"
             }
           },
           "faa27b48-11a4-44d5-b75b-2bf057212aaa": {
