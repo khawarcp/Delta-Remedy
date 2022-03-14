@@ -546,8 +546,14 @@ span {
   border: 0px;
   background-color: #343434;
   height: 120px;
+  color:  #fff;
   resize: none;
 }
+
+.contact-social-icons li a:hover svg path {
+  fill: #fbb91e;
+}
+
 span.article__date.custom-article-date {
   margin-bottom: 8px;
 }
