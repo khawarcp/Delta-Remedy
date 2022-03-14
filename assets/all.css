@@ -1268,6 +1268,15 @@ ul.social-sharing li a:hover svg path {
     margin-top: 60px;
 }
 
+.announcement-bar {
+    padding: 0px;
+}
+
+.announcement-bar p {
+    font-size: 14px;
+    line-height: 1.1;
+}
+
 
 @media screen and (max-width:1199px){
   .slideshow {
