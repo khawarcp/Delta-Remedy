@@ -227,6 +227,7 @@
         "settings": {
           "info": "Subscribe to our sales newsletter to stay up to date with our latest products & services.",
           "show_payment_icons": true,
+          "disclaim": "https:\/\/www.fda.gov\/about-fda\/website-policies\/website-disclaimer",
           "color_footer_bg": "rgba(0,0,0,0)",
           "color_footer_text": "#ffffff",
           "show_locale_selector": true,
