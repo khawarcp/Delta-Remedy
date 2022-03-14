@@ -149,7 +149,7 @@
              {{ block.shopify_attributes }}>
           <div class="site-footer__item-inner site-footer__item-inner--{{ block.type }}">
 
-            {%- if block.settings.title != blank -%}
+            {%- if block.settings.title -%}
               <p class="h4">{{ block.settings.title | escape }}</p>
             {%- endif -%}
 
