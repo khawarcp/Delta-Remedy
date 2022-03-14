@@ -205,7 +205,7 @@
               {%- when 'text' -%}
                 {%- if block.settings.text != blank -%}
                   <div class="footer_logo">
-                      <img src="{{ section.settings.footer_logo | img_url : "master" }}" class="layzload">
+                      <img src="{{ block.settings.footer_logo | img_url : "master" }}" class="layzload">
                   </div>
                   <div class="site-footer__rte
                               {% if section.blocks.size == 1 %} site-footer__single-block--centered{% endif %}">
