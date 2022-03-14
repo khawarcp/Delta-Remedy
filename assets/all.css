@@ -1277,6 +1277,14 @@ ul.social-sharing li a:hover svg path {
     line-height: 1.1;
 }
 
+.pagination__text {
+    padding: 0 7px;
+}
+
+.pagination li:last-child {
+    padding: 0 7px;
+}
+
 
 @media screen and (max-width:1199px){
   .slideshow {
