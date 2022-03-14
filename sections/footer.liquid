@@ -243,7 +243,9 @@
   <hr class="site-footer__hr">
 
   <div class="disclaimer-text">
-    &copy; {{ 'now' | date: "%Y" }}
+    {% if section.settings.disclaim_text != blank %}
+    &copy; {{ 'now' | date: "%Y" }} {{ section.settings.disclaim_text }}
+    {% endif %}
   </div>
 
   <hr class="site-footer__hr">
