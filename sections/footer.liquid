@@ -204,6 +204,9 @@
 
               {%- when 'text' -%}
                 {%- if block.settings.text != blank -%}
+                  <div class="footer_logo">
+                      <img src="{{ section.settings.footer_logo | img_url : "master" }}" class="layzload">
+                  </div>
                   <div class="site-footer__rte
                               {% if section.blocks.size == 1 %} site-footer__single-block--centered{% endif %}">
                       {{ block.settings.text }}
@@ -852,7 +855,12 @@
             "zh-CN": "<p>与您的客户共享商店详细信息、促销信息或品牌内容。</p>",
             "zh-TW": "<p>與顧客分享商店的詳細資訊、宣傳活動或品牌內容。</p>"
           }
-        }
+        },
+       {
+         "type": "image_picker",
+         "id": "footer_logo",
+         "label": "Footer Logo"
+       }
       ]
     },
     {
