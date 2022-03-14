@@ -1244,6 +1244,25 @@ ul.social-sharing li a:hover svg path {
   margin-bottom: 100px;
 }
 
+.pagination li a {
+    height: 35px;
+    width: 35px;
+    text-align: center;
+    border: 1px solid #535353;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #535353
+}
+
+.pagination li.page-active a {
+    border: 1px solid #fbb91e;
+    color: #fbb91e;
+}
+
+.pagination__text {
+    padding: 0;
+}
 
 
 @media screen and (max-width:1199px){
