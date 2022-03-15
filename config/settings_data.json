@@ -639,6 +639,13 @@
               "answer": "<p>So you’re curious about trying Delta 8 THC. Congrats! You’re in for a real therapeutic treat.<\/p><p>But we get it… You’re not 100% sure if you even understand what Delta 8 THC is, let alone if it’s a legit cannabinoid that’s safe to consume.<\/p><p>Here’s the good news… Delta 8 THC is 100% a legit, legal cannabinoid! And as for its safety profile, multiple studies have shown it to hold tremendous medicinal properties for the human body. So, yes… High quality, pure Delta 8 THC is safe to consume.<\/p>"
             }
           },
+          "d69bf6b8-9e68-4a90-9f80-9de520130ff5": {
+            "type": "FAQ",
+            "settings": {
+              "quiz": "What Is Delta 8 THC?",
+              "answer": "<p>Delta 8 is a very rare cannabinoid. In fact, it only exists in the cannabis plant (which includes both marijuana and hemp) in small concentrations of 1% or less. This may explain why cultivators and hemp brands feel like they’ve won the lottery when they get their hands on some Delta 8.<\/p>"
+            }
+          },
           "0b4e41c6-c20a-44d5-97ca-b10310f7a4ca": {
             "type": "FAQ",
             "settings": {
@@ -660,13 +667,6 @@
               "answer": "<p>The best place to buy high quality Delta 8 THC is from reputable online Delta 8 brands that value total transparency, third party testing, and have an outstanding brand reputation.<\/p><p>Here at Delta Remedys, we’ve not only seen how therapeutic Delta 8 THC is, but we’ve experienced it too. Which means our Delta 8 products aren’t just created for our customers, they’re created for our own personal use.<\/p>"
             }
           },
-          "d69bf6b8-9e68-4a90-9f80-9de520130ff5": {
-            "type": "FAQ",
-            "settings": {
-              "quiz": "What Is Delta 8 THC?",
-              "answer": "<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book<\/p>"
-            }
-          },
           "d1e4020c-612b-437c-8f95-6ec429c53a6f": {
             "type": "FAQ",
             "settings": {
@@ -684,10 +684,10 @@
         },
         "block_order": [
           "f0431bf6-f7a9-4670-afab-43d2b0e3017d",
+          "d69bf6b8-9e68-4a90-9f80-9de520130ff5",
           "0b4e41c6-c20a-44d5-97ca-b10310f7a4ca",
           "9329648a-31d3-41a1-919c-c885de6d3bb5",
           "711b5392-cf01-4d9b-8695-0e797fe463d5",
-          "d69bf6b8-9e68-4a90-9f80-9de520130ff5",
           "d1e4020c-612b-437c-8f95-6ec429c53a6f",
           "7b2e5b3d-8cde-4178-9cfe-888687800baf"
         ],
