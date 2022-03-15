@@ -1304,6 +1304,9 @@ ul.pagination li a:hover svg path {
     padding: 0 7px;
 }
 
+.site-footer__item:first-child .site-footer__item-inner p.h4 {
+  display: none;
+}
 
 @media screen and (max-width:1199px){
   .slideshow {
